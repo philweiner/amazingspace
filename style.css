@@ -119,11 +119,17 @@ nav a {
 
 /* Screen Handlers */
 
+
+/* Comma Separation */
+
 @media only screen and (max-width: 480px), (orientation: portrait) {
   .page-title {
     width: 270px;
   }
 }
+
+
+/* Chaining */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .gallery-item .thumbnail {
@@ -131,14 +137,33 @@ nav a {
   }
 }
 
+
+/* Screen Resolution */
+
 @media only screen and (min-resolution: 150dpi) {
   .logo {
     background-image: url("https://siumqt7iv017hcago6p5l5sdeu4nkfgk4ddnqfk3si6j749dohfg.codecademy.cloud/img/spaceship@2x.png");
   }
 }
 
+
+/* Screen Resolution and Chaining */
+
 @media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
   .page-description {
     font-size: 20px;
+  }
+}
+
+
+/* Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .page-title, .page-description {
+    float: left;
+    width: 20em;
+  }
+  .page-description {
+    text-align: left;
   }
 }
