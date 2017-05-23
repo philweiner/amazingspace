@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  background-image: url("https://siumqt7iv017hcago6p5l5sdeu4nkfgk4ddnqfk3si6j749dohfg.codecademy.cloud/img/space.jpg");
+  background-image: url("http://wallpapercave.com/wp/JzfvVHJ.jpg");
   height: 100%;
   background-attachment: fixed;
   background-size: cover;
@@ -30,7 +30,7 @@ body {
 .logo {
   height: 80px;
   width: 80px;
-  background-image: url("https://siumqt7iv017hcago6p5l5sdeu4nkfgk4ddnqfk3si6j749dohfg.codecademy.cloud/img/spaceship.png");
+  background-image: url("http://www.pngmart.com/files/3/Spaceship-Transparent-Background.png");
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
@@ -40,6 +40,9 @@ body {
 
 .page-title h1 {
   display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .main {
@@ -125,6 +128,9 @@ nav a {
 @media only screen and (max-width: 480px), (orientation: portrait) {
   .page-title {
     width: 270px;
+  }
+  .page-title h1 {
+    padding: 20px 0px;
   }
 }
 
